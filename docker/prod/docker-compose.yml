@@ -1,19 +1,22 @@
-version:  '2'
+version: '2'
 services:
+  configserver:
+    extends:
+      file: ../common/docker-compose.yml
+      service: configserver
+      
+      
+      
   database:
     extends:
       file: ../common/docker-compose.yml
       service: database
     environment:
       POSTGRES_USER: "postgres_prod"
-      POSTGRES_PASSWORD:  "p0stgr@s_prod"
-      POSTGRES_DB: "eagle_eye_prod"
-  configserver:
-    extends:
-      file: ../common/docker-compose.yml
-      service: configserver
+      POSTGRES_PASSWORD: "p0stgr@s_prod"
+      POSTGRES_DB:       "eagle_eye_prod"
   licensingservice:
-      image: ch3-thoughtmechanix/licensing-service
+#      image: ch3-thoughtmechanix/licensing-service
       ports:
         - "8080:8080"
       environment:
