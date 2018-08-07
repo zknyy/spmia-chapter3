@@ -1,4 +1,4 @@
-package com.thoughtmechanix.licenses.model;
+package me.liangzhipeng.licenses.model;
 
 
 import javax.persistence.Column;

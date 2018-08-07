@@ -1,10 +1,11 @@
-package com.thoughtmechanix.licenses.services;
+package me.liangzhipeng.licenses.services;
 
-import com.thoughtmechanix.licenses.config.ServiceConfig;
-import com.thoughtmechanix.licenses.model.License;
-import com.thoughtmechanix.licenses.repository.LicenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import me.liangzhipeng.licenses.config.ServiceConfig;
+import me.liangzhipeng.licenses.model.License;
+import me.liangzhipeng.licenses.repository.LicenseRepository;
 
 import java.util.List;
 import java.util.UUID;

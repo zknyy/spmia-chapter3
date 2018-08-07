@@ -72,7 +72,7 @@
     <start-class>com.thoughtmechanix.licenses.Application</start-class>
     <!-- <docker.image.name>johncarnell/tmx-licensing-service</docker.image.name> -->
     <docker.image.name>zknyy/tmx-licensing-service</docker.image.name>
-    <docker.image.tag>chapter3</docker.image.tag>
+    <docker.image.tag>ch3</docker.image.tag>
   </properties>
 
   <build>

@@ -1,4 +1,4 @@
-package com.thoughtmechanix.licenses;
+package me.liangzhipeng.licenses;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.SpringApplication;

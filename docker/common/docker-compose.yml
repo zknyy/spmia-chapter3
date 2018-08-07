@@ -1,7 +1,7 @@
 version: '2'
 services:
   configserver:
-    image: johncarnell/tmx-confsvr:chapter3
+    image: zknyy/tmx-confsvr:ch3
     ports:
        - "8888:8888"
     environment:
@@ -19,7 +19,7 @@ services:
       
       
   licensingservice:
-    image: zknyy/tmx-licensing-service:chapter3
+    image: zknyy/tmx-licensing-service:ch3
     ports:
       - "8080:8080"
     environment:

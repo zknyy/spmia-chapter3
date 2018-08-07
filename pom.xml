@@ -8,8 +8,8 @@
   <packaging>pom</packaging>
 
 
-  <name>thoughtmechanix-parent-pom</name>
-  <description>Parent Pom for the thoughtmechanix project</description>
+  <name>zknyy-parent-pom</name>
+  <description>Parent Pom for the zknyy project</description>
 
   <parent>
     <groupId>org.springframework.boot</groupId>

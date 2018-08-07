@@ -1,13 +1,15 @@
-package com.thoughtmechanix.licenses.controllers;
+package me.liangzhipeng.licenses.controllers;
 
-import com.thoughtmechanix.licenses.model.License;
-import com.thoughtmechanix.licenses.services.LicenseService;
-import com.thoughtmechanix.licenses.config.ServiceConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RestController;
+
+import me.liangzhipeng.licenses.config.ServiceConfig;
+import me.liangzhipeng.licenses.model.License;
+import me.liangzhipeng.licenses.services.LicenseService;
+
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;

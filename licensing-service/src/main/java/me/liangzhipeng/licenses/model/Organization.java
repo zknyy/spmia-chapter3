@@ -1,4 +1,4 @@
-package com.thoughtmechanix.licenses.model;
+package me.liangzhipeng.licenses.model;
 
 public class Organization {
     String id;

@@ -1,4 +1,4 @@
-package com.thoughtmechanix.confsvr;
+package me.liangzhipeng.confsvr;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
